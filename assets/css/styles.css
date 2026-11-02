@@ -713,6 +713,22 @@ button{background:none;border:0;cursor:pointer}
   color:var(--gold-200);font-weight:600;font-size:.88rem;
 }
 .footer-email:hover{text-decoration:underline;text-underline-offset:3px}
+.footer-did{
+  display:flex;width:max-content;max-width:100%;align-items:center;gap:7px;margin-top:10px;
+  padding:6px 11px;border:1px solid rgba(255,255,255,.14);border-radius:999px;
+  color:#93AD9B;font-size:.72rem;line-height:1.2;
+  transition:border-color .2s ease,color .2s ease;
+}
+.footer-did:hover{border-color:rgba(212,175,55,.55);color:var(--gold-200)}
+.footer-did-label{
+  font-size:.6rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--gold-200);
+}
+.footer-did code{
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:.7rem;color:#C6D8CB;overflow-wrap:anywhere;
+}
+.footer-did:hover code{color:inherit}
 .site-footer h3{
   margin:0 0 16px;font-family:var(--font-sans);font-size:.68rem;font-weight:700;
   letter-spacing:.17em;text-transform:uppercase;color:#fff;

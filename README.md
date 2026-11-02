@@ -18,6 +18,8 @@ Website for **Dalswin Life & Business Institute (DL&BI)** — a faith-based onli
 
 ```
 .
+├── .well-known/
+│   └── did.json          # did:web DID document
 ├── index.html
 ├── about.html
 ├── courses.html
@@ -28,10 +30,20 @@ Website for **Dalswin Life & Business Institute (DL&BI)** — a faith-based onli
 └── assets/
     ├── css/styles.css
     ├── js/main.js
-    └── img/            # logo, emblem, favicon and touch icon
+    └── img/              # logo, emblem, favicon and touch icon
 ```
 
 No build step or framework is required — the site is plain HTML, CSS, and JavaScript.
+
+## Digital identity
+
+This domain publishes a decentralized identifier using the `did:web` method:
+
+- **DID:** `did:web:www.dlife.online`
+- **DID document:** <https://www.dlife.online/.well-known/did.json>
+- **Verification method:** Ed25519 key `#key-1`
+
+The private signing key is kept offline and is never part of this repository.
 
 ## Run locally
 
@@ -48,6 +60,14 @@ Then visit <http://127.0.0.1:8008/>.
 - Student portal: <https://onb.richardn.online/login>
 - Email: [info@dlife.online](mailto:info@dlife.online)
 - The contact form is static and opens the visitor's email client via `mailto:`.
+
+## Copyright
+
+© 2026 Dalswin Life & Business Institute (DL&BI). **All rights reserved.**
+
+All content on this website — including text, course descriptions, branding, logos, graphics, and design — is the property of Dalswin Life & Business Institute and is protected by copyright. No part of this website may be copied, reproduced, modified, distributed, or republished in any form without prior written permission.
+
+For permission requests, contact [info@dlife.online](mailto:info@dlife.online).
 
 ## Deploying
 
