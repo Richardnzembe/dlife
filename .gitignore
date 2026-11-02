@@ -1,0 +1,4 @@
+# Local secrets and keys — never commit
+.keys/
+.DS_Store
+Thumbs.db

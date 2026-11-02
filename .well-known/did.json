@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:www.dlife.online",
+  "verificationMethod": [
+    {
+      "id": "did:web:www.dlife.online#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:www.dlife.online",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "nCwKwYcQrV_LuYSMSxMmJUN7bPLaGHeBDSCcWhAZBpc"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:www.dlife.online#key-1"
+  ],
+  "assertionMethod": [
+    "did:web:www.dlife.online#key-1"
+  ],
+  "service": [
+    {
+      "id": "did:web:www.dlife.online#website",
+      "type": "LinkedDomains",
+      "serviceEndpoint": "https://www.dlife.online/"
+    }
+  ]
+}
