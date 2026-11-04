@@ -1,6 +1,6 @@
 # dlife
 
-Website for **Dalswin Life & Business Institute (DL&BI)** — a faith-based online school offering practical courses in life skills, personal development, and leadership.
+Website for **Dalswin Life & Business Institute (DL&BI)** — a faith-based online school offering practical courses in life skills, personal development, leadership, and workplace digital skills.
 
 ## Pages
 
@@ -8,7 +8,7 @@ Website for **Dalswin Life & Business Institute (DL&BI)** — a faith-based onli
 | --- | --- |
 | `index.html` | Home — mission, values, featured courses, learning format |
 | `about.html` | About the institute, approach, and legacy |
-| `courses.html` | All eight courses with outcomes and course details |
+| `courses.html` | All nine courses, including the four-week Computer Literacy & Workplace Digital Skills programme |
 | `enroll.html` | Admissions process, student portal, and FAQ |
 | `contact.html` | Contact details and enquiry form |
 | `privacy.html` | Privacy Policy |
